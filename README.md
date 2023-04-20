@@ -2,6 +2,7 @@
 This is a Windows app that allows you to convert Arabic numbers to Roman numerals and vice versa. It provides a simple and easy-to-use interface for entering the input number and displaying the corresponding conversion result. The app supports Arabic numerals between 1 and 3999, and valid Roman numerals up to M (1000).
 
 # Usage:
+* Run the exe in bin/x64/Release folder or install visual studio and run the application with that
 * Enter the Arabic or Roman numeral in the respective input field.
 * Click the "Convert" button to see the conversion result in the other input field.
 * If the input is not valid, an error message will be displayed.
