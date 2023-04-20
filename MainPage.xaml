@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Arabic_Numbers.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Arabic_Numbers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btn_exit" Content="Exit" Margin="224,559,0,0" VerticalAlignment="Top" Height="55" Width="206" Click="btn_exit_Click"/>
+        <Button x:Name="btn_empty" Content="Tyhjennä" Margin="224,467,0,0" VerticalAlignment="Top" Height="55" Width="206" Click="btn_empty_Click"/>
+        <Button x:Name="btn_change" Content="Muunna" Margin="224,379,0,0" VerticalAlignment="Top" Height="55" Width="206" Click="btn_change_Click"/>
+        <TextBox x:Name="arabic_number" HorizontalAlignment="Left" Margin="562,379,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="246"/>
+        <TextBox x:Name="roman_number" HorizontalAlignment="Left" Margin="562,495,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="246"/>
+        <TextBlock x:Name="label1" HorizontalAlignment="Left" Margin="591,345,0,0" TextWrapping="Wrap" Text="Arabialainen numero" VerticalAlignment="Top" Width="191"/>
+        <TextBlock x:Name="label2" HorizontalAlignment="Left" Margin="571,467,0,0" TextWrapping="Wrap" Text="Roomalainen numero" VerticalAlignment="Top" Width="228"/>
+
+
+    </Grid>
+</Page>
